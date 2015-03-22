@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MouseLook.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraScript.js">
     <Files>
       <File FileName="Assets/Cardboard/Scripts/StereoController.cs" Line="131" Column="6" />
       <File FileName="Assets/Cardboard/Editor/StereoControllerEditor.cs" Line="1" Column="1" />

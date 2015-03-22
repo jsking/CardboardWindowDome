@@ -13,15 +13,17 @@ function Update () {
 	if(Physics.Raycast(Vector3.zero, transform.forward, hit) && hit.collider.tag == "TitleBar") {
 		foundIt = true;
 		go = hit.collider.gameObject;
+		theMat.color = Color.green;
 		if((Input.touchCount == 1 || Input.GetMouseButton(0))) {
 			go.GetComponentInParent(MoveWindow).move = true;
-		} else {
-			theMat.color = Color.green;
 		}
-	} else if(Input.touchCount != 1 && !Input.GetMouseButton(0)) {
-		go.GetComponentInParent(MoveWindow).move = false;
-	} else {
-		foundIt = false;
+	} else if(!foundIt) {
 		theMat.color = Color.white;
+	}
+	if(foundIt) {
+		if(Input.touchCount == 0) {
+			go.GetComponentInParent(MoveWindow).move = false;
+			foundIt = false;
+		}
 	}
 }
