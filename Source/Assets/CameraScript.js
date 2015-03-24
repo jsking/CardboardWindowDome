@@ -10,20 +10,16 @@ function Start () {
 }
 
 function Update () {
+	var cardboard = (transform.parent.GetComponent(Cardboard) as Cardboard);
 	if(Physics.Raycast(Vector3.zero, transform.forward, hit) && hit.collider.tag == "TitleBar") {
-		foundIt = true;
 		go = hit.collider.gameObject;
 		theMat.color = Color.green;
-		if((Input.touchCount == 1 || Input.GetMouseButton(0))) {
-			go.GetComponentInParent(MoveWindow).move = true;
+		if(cardboard.CardboardTriggered) {
+			foundIt = !foundIt;
+			go.GetComponentInParent(MoveWindow).move = !go.GetComponentInParent(MoveWindow).move;
 		}
-	} else if(!foundIt) {
+	} else {
 		theMat.color = Color.white;
 	}
-	if(foundIt) {
-		if(Input.touchCount == 0) {
-			go.GetComponentInParent(MoveWindow).move = false;
-			foundIt = false;
-		}
-	}
+	
 }
