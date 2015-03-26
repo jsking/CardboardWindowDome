@@ -48,12 +48,17 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\CardboardEditor.cs" />
      <Compile Include="Assets\Editor\StereoControllerEditor.cs" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\SkyboxMesh.shader" />
+     <None Include="Assets\MeleeWeaponTrail\README.txt" />
      <None Include="Assets\UWEBKIT_LICENSE_SOURCE.txt" />
      <None Include="Assets\UWEBKIT_LICENSE_BINARY.txt" />
      <None Include="Assets\UWEBKIT_GETTINGSTARTED.txt" />
-     <None Include="Assets\Plugins\Android\AndroidManifest 1.xml" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\GUIScreen.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\RadialUndistortionEffect.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/justin/git/CardboardWindowDome/Source/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="Assembly-UnityScript">
  <HintPath>/Users/justin/git/CardboardWindowDome/Source/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>

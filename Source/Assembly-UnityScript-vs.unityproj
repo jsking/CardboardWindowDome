@@ -49,12 +49,18 @@
      <Compile Include="Assets\CameraScript.js" />
      <Compile Include="Assets\CanvasSettings.js" />
      <Compile Include="Assets\MoveWindow.js" />
+     <Compile Include="Assets\rotateY.js" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\SkyboxMesh.shader" />
+     <None Include="Assets\MeleeWeaponTrail\README.txt" />
      <None Include="Assets\UWEBKIT_LICENSE_SOURCE.txt" />
      <None Include="Assets\UWEBKIT_LICENSE_BINARY.txt" />
      <None Include="Assets\UWEBKIT_GETTINGSTARTED.txt" />
-     <None Include="Assets\Plugins\Android\AndroidManifest 1.xml" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\GUIScreen.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\RadialUndistortionEffect.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/justin/git/CardboardWindowDome/Source/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -46,14 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MeleeWeaponTrail\Scripts\Interpolate.cs" />
+     <Compile Include="Assets\MeleeWeaponTrail\Scripts\MeleeWeaponTrail.cs" />
      <Compile Include="Assets\MouseLook.cs" />
      <Compile Include="Assets\UDPReceive.cs" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\SkyboxMesh.shader" />
+     <None Include="Assets\MeleeWeaponTrail\README.txt" />
      <None Include="Assets\UWEBKIT_LICENSE_SOURCE.txt" />
      <None Include="Assets\UWEBKIT_LICENSE_BINARY.txt" />
      <None Include="Assets\UWEBKIT_GETTINGSTARTED.txt" />
-     <None Include="Assets\Plugins\Android\AndroidManifest 1.xml" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\GUIScreen.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Cardboard\Resources\RadialUndistortionEffect.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -61,6 +65,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{B6FCA452-E620-D059-605D-5DFCB852AFD7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{31182E7F-CE8D-9EE1-9A35-BD3D8D071EDC}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
